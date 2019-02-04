@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaApiGateway", "NasaApiGateway\NasaApiGateway.csproj", "{F1D05E2A-392F-4CBF-90FA-2C87C8718FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaImageDownloader", "NasaImageDownloader\NasaImageDownloader.csproj", "{66E17AEA-1100-41DE-8716-8B705937E04C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NasaImageViewer", "NasaImageViewer\", "{10CCDA8E-E2EE-4E0E-9163-EC14DBE5480A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{f1d05e2a-392f-4cbf-90fa-2c87c8718fd4}|NasaApiGateway.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50346"
+		Debug.AspNetCompiler.PhysicalPath = "NasaImageViewer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50346\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50346"
+		Release.AspNetCompiler.PhysicalPath = "NasaImageViewer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50346\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50346"
+		SlnRelativePath = "NasaImageViewer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D05E2A-392F-4CBF-90FA-2C87C8718FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D05E2A-392F-4CBF-90FA-2C87C8718FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D05E2A-392F-4CBF-90FA-2C87C8718FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D05E2A-392F-4CBF-90FA-2C87C8718FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66E17AEA-1100-41DE-8716-8B705937E04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E17AEA-1100-41DE-8716-8B705937E04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E17AEA-1100-41DE-8716-8B705937E04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E17AEA-1100-41DE-8716-8B705937E04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CCDA8E-E2EE-4E0E-9163-EC14DBE5480A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CCDA8E-E2EE-4E0E-9163-EC14DBE5480A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CCDA8E-E2EE-4E0E-9163-EC14DBE5480A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CCDA8E-E2EE-4E0E-9163-EC14DBE5480A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BC7B3C3-7E6B-4003-A924-819E6FEE20F2}
+	EndGlobalSection
+EndGlobal
