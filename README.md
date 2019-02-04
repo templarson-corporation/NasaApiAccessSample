@@ -8,7 +8,7 @@ Example: NasaImageDownloader /api:apod /folder:C:\Users\MyUser\Downloads /dateli
 
 
 NasaImageDownloader can download images for multiple dates listed in a test file, specified in /datelist parameter. 
-Example: NasaImageDownloader /api:apod /folder:C:\Users\Mitko\Downloads /date:2017-02-26 
+Example: NasaImageDownloader /api:apod /folder:C:\Users\MyUser\Downloads /date:2017-02-26 
 
 NOTE: NasaImageDownloader /api parameter and currently only APOD value is supported.
 
